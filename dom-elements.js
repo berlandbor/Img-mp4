@@ -29,10 +29,6 @@ const showEdgesCheckbox = document.getElementById('showEdges');
 const onlyEdges = document.getElementById('onlyEdges');
 const bgPicker = document.getElementById('bgPicker');
 const bgColor = document.getElementById('bgColor');
-const selectedColor = document.getElementById('selectedColor');
-const colorTolerance = document.getElementById('colorTolerance');
-const colorPosterization = document.getElementById('colorPosterization');
-const colorSaturation = document.getElementById('colorSaturation');
 
 // === Фильтрация по выбранным цветам ===
 const selectedColor1 = document.getElementById('selectedColor1');
@@ -58,6 +54,44 @@ const colorPosterization3 = document.getElementById('colorPosterization3');
 const colorPosterizationVal3 = document.getElementById('colorPosterizationVal3');
 const colorSaturation3 = document.getElementById('colorSaturation3');
 const colorSaturationVal3 = document.getElementById('colorSaturationVal3');
+
+// === Глобальный цвет ===
+const globalColor = document.getElementById('globalColor');
+const globalColorStrength = document.getElementById('globalColorStrength');
+const globalColorStrengthVal = document.getElementById('globalColorStrengthVal');
+
+// === Контраст, цветность, яркость ===
+const contrast = document.getElementById('contrast');
+const contrastVal = document.getElementById('contrastVal');
+const colorize = document.getElementById('colorize');
+const colorizeVal = document.getElementById('colorizeVal');
+const brightness = document.getElementById('brightness');
+const brightnessVal = document.getElementById('brightnessVal');
+
+// === Виньетка ===
+const vignette = document.getElementById('vignette');
+const vignetteVal = document.getElementById('vignetteVal');
+const vignetteColor = document.getElementById('vignetteColor');
+const vignetteRadius = document.getElementById('vignetteRadius');
+const vignetteRadiusVal = document.getElementById('vignetteRadiusVal');
+
+// === Рамка ===
+const frameColor = document.getElementById('frameColor');
+const frameWidth = document.getElementById('frameWidth');
+const frameWidthVal = document.getElementById('frameWidthVal');
+
+// === Автограф ===
+const signatureText = document.getElementById('signatureText');
+const signatureColor = document.getElementById('signatureColor');
+const signatureSize = document.getElementById('signatureSize');
+const signatureSizeVal = document.getElementById('signatureSizeVal');
+
+// === Обрезка ===
+const cropMarginLeft = document.getElementById('cropMarginLeft');
+const cropMarginRight = document.getElementById('cropMarginRight');
+const cropMarginTop = document.getElementById('cropMarginTop');
+const cropMarginBottom = document.getElementById('cropMarginBottom');
+const applyCrop = document.getElementById('applyCrop');
 
 // === Масштаб ===
 const zoomSlider = document.getElementById('zoom');
